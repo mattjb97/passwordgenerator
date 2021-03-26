@@ -4,10 +4,18 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+//variables for the function to choose from to make the passwords 
 var Lower = ["abcdefghijklmnopqrstuvwxyz"];
 var Upper = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 var Numbers = [1234567890];
 var Characters = ["!@#$%^&*()_+={[}]';:?><"];
+
+//selectors to comfirm types of characters in the functions need to call these 
+var CheckCharacters = "";
+var confirmLower;
+var confirmUpper;
+var confirmNumbers;
+var CheckCharactersacters;
 
 
 
